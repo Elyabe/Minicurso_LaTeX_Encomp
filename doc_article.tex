@@ -1,4 +1,4 @@
-\documentclass[10pt,a4paper]{book}
+\documentclass[10pt,a4paper,twocolumn]{book}
 %PREAMBULO
 	
 	\usepackage[utf8]{inputenc} % Acentuação 
@@ -59,7 +59,17 @@
 			\subsubsection{Subsubseção}
  	\section{Segunda Seção}
 		Vamos trocar uma seção pela outra?
-	
+	\section{Outros elementos}
+		\begin{table}
+			\caption{Minha primeira tabela}
+			\centering
+			\begin{tabular}{ c | l | r }
+				Centralizado &esquerda &direita \\ \hline
+				linha 2 & & \\
+				linha3 & & \\ \hline
+			\end{tabular}
+		\end{table}
+		
 %	\part{Uma parte}
 	
 \end{document}
