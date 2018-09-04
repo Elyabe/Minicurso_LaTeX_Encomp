@@ -2,7 +2,8 @@
 %PREAMBULO
 	
 	\usepackage[utf8]{inputenc} % Acentuação 
-	
+	\usepackage{multirow} %Mesclagem vertical de linhas
+		
 
 \begin{document} 
 %CORPO DO DOCUMENTO
@@ -59,14 +60,32 @@
 			\subsubsection{Subsubseção}
  	\section{Segunda Seção}
 		Vamos trocar uma seção pela outra?
+	
 	\section{Outros elementos}
-		\begin{table}
+   		\begin{table}[h]
 			\caption{Minha primeira tabela}
 			\centering
-			\begin{tabular}{ c | l | r }
+			\begin{tabular}{ c | l | r } \hline
+				\multicolumn{3}{c}{Texto mesclado} \\ \hline
 				Centralizado &esquerda &direita \\ \hline
-				linha 2 & & \\
+				linha 2 & & \\ 
 				linha3 & & \\ \hline
+			\end{tabular}
+		\end{table}
+		
+		\begin{table}[h]
+			\caption{Tabela com mesclagem de linhas}
+			\centering
+			\begin{tabular}{ c | l | r } \hline
+				\multicolumn{3}{c}{Texto mesclado} \\ \hline
+				Centralizado &esquerda &direita \\ \hline
+				linha 2 & & \\ 
+				linha3 & & \\ \hline
+				\multirow{2}{*}{Celulas mescladas} & & \\ \hline
+				& & \\
+				& & \\ \hline
+				linha 6 & &\\ \cline{2-3}
+				linha 7 & &\\ \hline
 			\end{tabular}
 		\end{table}
 		
