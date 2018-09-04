@@ -1,8 +1,8 @@
 \babel@toc {portuguese}{}
-\contentsline {chapter}{\numberline {1}Minicurso de \LaTeX }{1}
-\contentsline {section}{\numberline {1.1}Fontes}{4}
-\contentsline {section}{\numberline {1.2}Titulo da se\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {subsection}{\numberline {1.2.1}Subse\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {subsubsection}{Subsubse\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {section}{\numberline {1.3}Segunda Se\IeC {\c c}\IeC {\~a}o}{4}
-\contentsline {section}{\numberline {1.4}Outros elementos}{4}
+\contentsline {chapter}{\numberline {1}Minicurso de \LaTeX }{3}
+\contentsline {section}{\numberline {1.1}Fontes}{3}
+\contentsline {section}{\numberline {1.2}Titulo da se\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsection}{\numberline {1.2.1}Subse\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {subsubsection}{Subsubse\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {1.3}Segunda Se\IeC {\c c}\IeC {\~a}o}{3}
+\contentsline {section}{\numberline {1.4}Outros elementos}{3}
