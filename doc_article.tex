@@ -4,6 +4,7 @@
 	\usepackage[utf8]{inputenc} % Acentuação 
 	\usepackage{multirow} %Mesclagem vertical de linhas
 	\usepackage{graphicx} %Inserção de figuras
+	\usepackage{subfigure}	
 \begin{document} 
 %CORPO DO DOCUMENTO
 	
@@ -89,12 +90,20 @@
 		\end{table}
 		
 	\section*{Vamos inserir uma imagem?}
-
+	
 		\begin{figure}[h]
 			\caption{Legenda huehue}
 			\includegraphics[scale=0.2]{figuras/encomp-logo.png}
 		\end{figure}
 	
+		\begin{figure}[h]
+			\caption{Subfiguras}
+			\label{fig:subfiguras}
+			\subfigure[Figura a]{\includegraphics[scale=0.1]{figuras/encomp-logo.png} \label{subfig:logo}}
+			\subfigure[Figura  ]{\includegraphics[scale=0.18]{figuras/joao-crazy.jpg}}
+		\end{figure}
+	
+		A figura \ref{fig:subfiguras} mostra duas fig.
 %	\part{Uma parte}
 	
 \end{document}
