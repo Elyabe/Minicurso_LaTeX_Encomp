@@ -9,7 +9,8 @@
 	\usepackage{amsfonts} %Símbolos matemáticos
 		\usepackage{amsmath} %Matrizes e outros símbolos		
 		\usepackage{amsthm} %Ambientes para detalhes de teoremas
-	
+	\usepackage[ruled,linesnumbered,portuguese,onelanguage]{algorithm2e} %Algoritmos pseudocódigo
+
 	\newtheorem{teorema}{Teorema}
 	\newtheorem{corolario}{Corolário}[teorema]
 	\newtheorem{lema}{Lema}[corolario]
@@ -187,7 +188,7 @@
 				x^i\cdot y^{n-i}
 			\end{equation}
 			
-	\section{Para brincar}
+	\subsection{Para brincar}
 		\begin{teorema}
 			Aqui vai um teorema.
 		\end{teorema}
@@ -213,7 +214,49 @@
 				De fato, é porque é, porque é mesmo.
 			\end{proof}
 		\end{teorema}
+	
+	
+	\section{Computarias}
+		Vamos inserir um algoritmo
+
+		\begin{algorithm}[h]
+			\caption{{\sc Merge }}
+			\DontPrintSemicolon % Some LaTeX compilers require you to use \dontprintsemicolon instead
+			\KwIn{A[], p, q, r : inteiro}
+			\KwOut{Sequência A[p, $\ldots$ , r-1] ordenada}
+			$i, j, k,$ temp[$1, \ldots, r-p$]: inteiro 
+			
+			$i \gets p$;\\
+			$j \gets q$;\\
+			$k \gets 1$;\\
+			
+			\While{$i < q$ \textbf{e} $j < r$ }
+			{
+				\label{alg:laco}
+				\If{A[$i$] $\leq$ A[$j$] }{temp[$k$] $\gets$ A[$i$];\\ $i \gets i + 1$; }
+				\Else{temp[$k$] $\gets$ A[$j$];\\ $j \gets j + 1$; }
+				$k \gets k + 1$;
+			}
+			
+			\While{$i < q$ }
+			{
+				temp[$k$] $\gets$ A[$i$];\;
+				$i \gets i + 1$;\;
+				$k \gets k + 1$;
+			}
+			
+			\While{$j < r$ }
+			{
+				temp[$k$] $\gets$ A[$j$];\; 
+				$j \gets j + 1$;\;
+				$k \gets k + 1$;
+			}			
+			
+			A[$p , \ldots, r-1$] $\gets$ temp[$1, \ldots, r-p$]\;
+			\Return{A}\;
+			\label{algo:selectionsort}
+		\end{algorithm}	
 		
-		
+		No laço das linhas \ref{alg:laco}
 			
 \end{document}
