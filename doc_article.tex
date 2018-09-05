@@ -8,6 +8,12 @@
 	\usepackage[portuguese]{babel} %Tradução dos labels
 	\usepackage{amsfonts} %Símbolos matemáticos
 		\usepackage{amsmath} %Matrizes e outros símbolos		
+		\usepackage{amsthm} %Ambientes para detalhes de teoremas
+	
+	\newtheorem{teorema}{Teorema}
+	\newtheorem{corolario}{Corolário}[teorema]
+	\newtheorem{lema}{Lema}[corolario]
+	
 \begin{document} 
 %CORPO DO DOCUMENTO
 	
@@ -181,5 +187,33 @@
 				x^i\cdot y^{n-i}
 			\end{equation}
 			
+	\section{Para brincar}
+		\begin{teorema}
+			Aqui vai um teorema.
+		\end{teorema}
+	
+		\begin{teorema}[Teorema Fundamental do Cálculo]
+			Seja $f$ uma função ...
+			Então 
+			\begin{equation}
+			\frac{d}{dx}\int_{a}^{x}f(t)dt = f(x)
+			\end{equation}
+		\end{teorema}
+	
+		\begin{corolario}
+			Ui		
+		\end{corolario}
+			
+		\begin{lema}
+			OOps
+		\end{lema}
+		
+		\begin{teorema}[Teorema de Chicó] Tudo é porque é porque é mesmo.
+			\begin{proof}
+				De fato, é porque é, porque é mesmo.
+			\end{proof}
+		\end{teorema}
+		
+		
 			
 \end{document}

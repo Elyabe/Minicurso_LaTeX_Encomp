@@ -7,3 +7,4 @@
 \contentsline {section}{\numberline {1.3}Segunda Se\IeC {\c c}\IeC {\~a}o}{3}
 \contentsline {section}{\numberline {1.4}Outros elementos}{3}
 \contentsline {section}{\numberline {1.5}MathLovers}{4}
+\contentsline {section}{\numberline {1.6}Para brincar}{4}
