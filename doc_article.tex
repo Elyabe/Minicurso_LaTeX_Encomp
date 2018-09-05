@@ -7,7 +7,7 @@
 	\usepackage{subfigure}	
 	\usepackage[portuguese]{babel} %Tradução dos labels
 	\usepackage{amsfonts} %Símbolos matemáticos
-		
+		\usepackage{amsmath} %Matrizes e outros símbolos		
 \begin{document} 
 %CORPO DO DOCUMENTO
 	
@@ -130,7 +130,7 @@
 			Algumas identidades trigonométricas...
 			
 			\begin{eqnarray}
-				\sin^2(x) + \cos^2(x) &= &1 \\
+				\sin^2(x) + \cos^2(x) &= &1 \label{eq: relTrigFund}\\ 
 				1 + \tan^2(x) &= &\sec^2(x) \\ \nonumber
 				\cos(2\theta) &= &\cos^2(\theta) - \sin^2(\theta)
 			\end{eqnarray}
@@ -142,8 +142,26 @@
 			
 			Alguns dos conjuntos numéricos mais estudados
 			$$ \mathbb{N} \subset \mathbb{Z} \subset \mathbb{R}$$
+			Exemplo: $ \mathbb{R}_+ = \{ x \in \mathbb{R} | x \ge 0\}$
 			
+			Uma transformação linear $T$ importantíssima na computação é a rotação, definida como  \\$T:\mathbb{R}^2 \longrightarrow \mathbb{R}^2$ cuja matriz associada é 
 			
+			\begin{equation}
+				\begin{bmatrix}
+					cos(\alpha) &\sin(\alpha) \\
+					-\sin(\alpha) &\cos(\alpha)
+				\end{bmatrix}
+			\end{equation}
+			
+			É fácil ver que 
+			
+			\begin{equation}
+				\begin{vmatrix}
+					cos(\alpha) &\sin(\alpha) \\
+					-\sin(\alpha) &\cos(\alpha)
+				\end{vmatrix}
+				= 1, \text{ por \ref{eq: relTrigFund}. }
+			\end{equation}
 			
 					
 \end{document}
