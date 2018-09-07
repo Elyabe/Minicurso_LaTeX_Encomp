@@ -9,3 +9,4 @@
 \contentsline {section}{\numberline {1.5}MathLovers}{4}
 \contentsline {subsection}{\numberline {1.5.1}Para brincar}{4}
 \contentsline {section}{\numberline {1.6}Computarias}{5}
+\contentsline {section}{\numberline {1.7}Organiza\IeC {\c c}\IeC {\~a}o externa}{6}
