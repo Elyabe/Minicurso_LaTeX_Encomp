@@ -28,9 +28,13 @@
 	\newtheorem{corolario}{Corolário}[teorema]
 	\newtheorem{lema}{Lema}[corolario]
 	
+%	Criando e Redefinindo comandos
+	\newcommand{\novoComando}{\textbf{Novo} comando $\square$}
+	\renewcommand{\bf}{\it}
+	
 \begin{document} 
 %CORPO DO DOCUMENTO
-	\lhead{Cabecalho esquerdo}
+	\lhead{\novoComando}
 	\rhead{Cab. Direito \date }
 	\chead{Cab. Central}
 	\lfoot{Rod. Esquerdo}
