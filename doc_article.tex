@@ -13,12 +13,12 @@
 	\usepackage{float} %flutuaçao de elementos/ posição relativa
 	\usepackage{listings} %Inserção de códigos 
 	\usepackage{tikz,pgfplots} %Pacote gráfico
-	\usepackage{natbib}	 %Referências bibliográficas
-%		Tikz importado
+		% Tikz importado
 		\pgfplotsset{compat=1.15}
 		\usepackage{mathrsfs}
 		\usetikzlibrary{arrows}
-		
+	\usepackage{natbib}	 %Referências bibliográficas
+	\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} %Dimensionar estilos da página
 		
 	\newtheorem{teorema}{Teorema}
 	\newtheorem{corolario}{Corolário}[teorema]
@@ -299,6 +299,7 @@ Agora um código em MATLAB inserindo de arquivo externa.
 
 \section{Organização externa}
 	\input{capitulos/cap1.tex}
+	
 	
 	\bibliography{bibliografia}
 		\nocite{livro:joao}
