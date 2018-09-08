@@ -19,6 +19,7 @@
 		\usetikzlibrary{arrows}
 	\usepackage{natbib}	 %Referências bibliográficas
 	\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} %Dimensionar estilos da página
+	\usepackage{lscape} %modo paisagem apenas numa folha
 		
 	\newtheorem{teorema}{Teorema}
 	\newtheorem{corolario}{Corolário}[teorema]
@@ -299,6 +300,11 @@ Agora um código em MATLAB inserindo de arquivo externa.
 
 \section{Organização externa}
 	\input{capitulos/cap1.tex}
+	
+	\begin{landscape}
+		Este conteúdo ficará no modo paisagem, mas apenas ele. A página não virou.
+	\end{landscape}
+
 	
 	
 	\bibliography{bibliografia}
