@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.30)  8 SEP 2018 14:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.6.30)  8 SEP 2018 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -971,36 +971,48 @@ File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
 de.tex
 File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
-)))
+))) (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup6
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
+tex
+File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
+\arrowsize=\dimen188
+))
 \c@teorema=\count148
 \c@corolario=\count149
 \c@lema=\count150
  (./doc_article.aux)
 \openout1 = `doc_article.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count151
-\scratchdimen=\dimen188
+\scratchdimen=\dimen189
 \scratchbox=\box52
 \nofMPsegments=\count152
 \nofMParguments=\count153
 \everyMPshowfont=\toks48
 \MPscratchCnt=\count154
-\MPscratchDim=\dimen189
+\MPscratchDim=\dimen190
 \MPnumerator=\count155
 \makeMPintoPDFobject=\count156
 \everyMPtoPDFconversion=\toks49
@@ -1063,11 +1075,8 @@ e
 \c@lstlisting=\count157
 
 ABD: EveryShipout initializing macros
-
-Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
-ick labels; missing features). Consider writing \pgfplotsset{compat=1.15} into 
-your preamble.
- on input line 22.
+Package pgfplots notification 'compat/show suggested version=true': document ha
+s been generated with the most recent feature set (\pgfplotsset{compat=1.15}).
 
 (./doc_article.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
@@ -1078,6 +1087,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+
+(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 ))
 \tf@toc=\write4
 \openout4 = `doc_article.toc'.
@@ -1091,26 +1105,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Cap\'{\i }tulo 1.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 37.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
 <figuras/encomp-logo.png, id=17, 963.6pt x 963.6pt>
 File: figuras/encomp-logo.png Graphic file (type png)
 <use figuras/encomp-logo.png>
-Package pdftex.def Info: figuras/encomp-logo.png  used on input line 112.
+Package pdftex.def Info: figuras/encomp-logo.png  used on input line 117.
 (pdftex.def)             Requested size: 192.71658pt x 192.71658pt.
  [3]
 File: figuras/encomp-logo.png Graphic file (type png)
 <use figuras/encomp-logo.png>
-Package pdftex.def Info: figuras/encomp-logo.png  used on input line 118.
+Package pdftex.def Info: figuras/encomp-logo.png  used on input line 123.
 (pdftex.def)             Requested size: 96.36565pt x 96.36565pt.
 <figuras/joao-crazy.jpg, id=27, 652.4375pt x 461.725pt>
 File: figuras/joao-crazy.jpg Graphic file (type jpg)
 <use figuras/joao-crazy.jpg>
-Package pdftex.def Info: figuras/joao-crazy.jpg  used on input line 119.
+Package pdftex.def Info: figuras/joao-crazy.jpg  used on input line 124.
 (pdftex.def)             Requested size: 117.43367pt x 83.1069pt.
  [4 <./figuras/encomp-logo.png (PNG copy)> <./figuras/joao-crazy.jpg>]
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -1119,21 +1133,21 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 272.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 277.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 272.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 277.
 
-Overfull \hbox (13.00238pt too wide) in paragraph at lines 276--277
+Overfull \hbox (13.00238pt too wide) in paragraph at lines 281--282
 [][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (31.00256pt too wide) in paragraph at lines 278--279
+Overfull \hbox (31.00256pt too wide) in paragraph at lines 283--284
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -1149,52 +1163,62 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (25.94943pt too wide) in paragraph at lines 32--33
+Overfull \hbox (14.76508pt too wide) in paragraph at lines 32--33
 [][] 
  []
 
 
-Overfull \hbox (21.66391pt too wide) in paragraph at lines 39--40
+Overfull \hbox (20.29082pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
+
+Underfull \vbox (badness 1990) has occurred while \output is active []
+
+
+Overfull \hbox (627.21758pt too wide) in paragraph at lines 64--65
 [][] 
  []
 
 )
-Underfull \vbox (badness 1769) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-(./doc_article.aux) ) 
+[7
+
+] (./doc_article.aux) ) 
 Here is how much of TeX's memory you used:
- 27131 strings out of 492982
- 649358 string characters out of 6134896
- 1213833 words of memory out of 5000000
- 30214 multiletter control sequences out of 15000+600000
- 14728 words of font info for 55 fonts, out of 8000000 for 9000
+ 27682 strings out of 492982
+ 664424 string characters out of 6134896
+ 1220534 words of memory out of 5000000
+ 30749 multiletter control sequences out of 15000+600000
+ 15718 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,17n,103p,707b,2212s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on doc_article.pdf (6 pages, 682905 bytes).
+ 69i,17n,119p,707b,2212s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl8.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on doc_article.pdf (7 pages, 685274 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 117 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
