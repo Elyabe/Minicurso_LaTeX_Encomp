@@ -13,7 +13,7 @@
 	\usepackage{float} %flutuaçao de elementos/ posição relativa
 	\usepackage{listings} %Inserção de códigos 
 	\usepackage{tikz,pgfplots} %Pacote gráfico
-		
+	\usepackage{natbib}	 %Referências bibliográficas
 %		Tikz importado
 		\pgfplotsset{compat=1.15}
 		\usepackage{mathrsfs}
@@ -27,6 +27,7 @@
 \begin{document} 
 %CORPO DO DOCUMENTO
 	
+	\bibliographystyle{unsrtnat} %Padrão da bibliografia/Estilo
 	\tableofcontents
 	
 	\chapter{Minicurso de \LaTeX}
@@ -299,4 +300,7 @@ Agora um código em MATLAB inserindo de arquivo externa.
 \section{Organização externa}
 	\input{capitulos/cap1.tex}
 	
+	\bibliography{bibliografia}
+		\nocite{livro:joao}
+		\nocite{conf:alckmin}
 \end{document}
