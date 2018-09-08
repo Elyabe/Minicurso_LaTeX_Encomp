@@ -22,8 +22,23 @@ Agora estamos trabalhando com modularização...
 
 
 
-\begin{tikzpicture}[domain=0:15]
+\begin{tikzpicture}[domain=0:5]
 	\begin{axis}[xlabel=X,ylabel=Y, title=Grafico]% função
 		\addplot[samples=200] {1/x}; %Foco na taxa de amostragem
+		\addplot {x^2+x};
+		
+		\legend{ 1/x, $x^2+x$}
 	\end{axis}
 \end{tikzpicture}
+
+\begin{tikzpicture}
+	\begin{axis}[xlabel=x, ylabel=y, title=Superficie ]
+%		\addplot3[surf] { (x*y)/(x^2+y^2) }; %Parametro opcional surf 
+		\addplot3[surf] {exp(-x^2-y^2)+10};
+	\end{axis}
+\end{tikzpicture}
+
+
+
+
+
