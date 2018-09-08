@@ -19,8 +19,10 @@
 		\usetikzlibrary{arrows}
 	\usepackage{natbib}	 %Referências bibliográficas
 	\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} %Dimensionar estilos da página
-	\usepackage{lscape} %Modo paisagem apenas num conteúdo
+%	\usepackage{lscape} %Modo paisagem apenas num conteúdo
 	\usepackage{pdflscape} %Modo paisagem também na paǵina 
+	\usepackage{fancyhdr} %Cabeçalho estilizado
+		\pagestyle{fancy}
 		
 	\newtheorem{teorema}{Teorema}
 	\newtheorem{corolario}{Corolário}[teorema]
@@ -28,6 +30,11 @@
 	
 \begin{document} 
 %CORPO DO DOCUMENTO
+	\lhead{Cabecalho esquerdo}
+	\rhead{Cab. Direito \date }
+	\chead{Cab. Central}
+	\lfoot{Rod. Esquerdo}
+	\rfoot{Rod. Direito}
 	
 	\bibliographystyle{unsrtnat} %Padrão da bibliografia/Estilo
 	\tableofcontents
